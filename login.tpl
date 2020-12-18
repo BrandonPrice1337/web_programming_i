@@ -8,6 +8,7 @@
   <a href="http://devbrandonprice.pythonanywhere.com/register"><button>Register</button></a>
   
 <script>
+    //This code was taken from w3schools: https://www.w3schools.com/howto/howto_js_toggle_password.asp
     function myFunction() {
         var x = document.getElementById("password_");
         if (x.type === "password") {
