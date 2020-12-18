@@ -9,11 +9,11 @@
 <style>
     body {background-color: cyan;}
     
-    styledimg{
+    img{
     background-image: url(https://i1.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg);
     background-repeat: no-repeat;
-    width: 1320px;
-    width: 1320px;
+    width: 1920px;
+    width: 1920px;
     }
     
 </style>
