@@ -67,6 +67,10 @@ def get_logout():
     session['username'] = 'Guest'
     save_session(session)
     redirect('/login')
+    
+@get('/login_error')
+def get_login_error():
+    return template("login_error")
 
 @get('/register')
 def get_register():
