@@ -7,3 +7,4 @@
     <hr>
     <input type="submit" name="login" value="Login"/>
 </form>
+  <a href="http://devbrandonprice.pythonanywhere.com/register"><button>Register</button></a>
