@@ -22,4 +22,5 @@
 
 <style>
     body {background-color: cyan;}
+    font-family: Arial
 </style>
