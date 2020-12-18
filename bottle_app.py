@@ -101,7 +101,10 @@ def post_register():
         return
     db['profile'].insert({'username':username, 'password':password})
     redirect('/')
-
+    
+@get('/register_error/<errorcode>')
+def get_register_error(errorcode):
+    return template("register_error", error=errorcode)
 
 @get('/')
 def get_show_list():
