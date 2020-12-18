@@ -10,7 +10,7 @@
     body {background-color: cyan;}
     
     img{
-    background-image: url(https://i1.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg);
+    background-image: url(/Downloads/funny-cat.jpg);
     background-repeat: no-repeat;
     width: 1920px;
     width: 1920px;
