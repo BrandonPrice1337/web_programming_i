@@ -7,5 +7,5 @@
 <a href="http://devbrandonprice.pythonanywhere.com/login"><button>Go back</button></a>
 
 <style>
-    body {background-color: pink;}
+    body {background-color: #ff007f;}
 </style>
