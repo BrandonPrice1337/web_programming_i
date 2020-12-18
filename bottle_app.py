@@ -86,28 +86,19 @@ def post_register():
     if session['username'] != 'Guest':
         redirect('/')
         return
-
-    #Gets the CSRF token
-    csrf_token = request.forms.get("csrf_token").strip()
-    
-    #Gets the username and password from the text boxes
+    # csrf_token = request.forms.get("csrf_token").strip()
+    # if csrf_token != "abcrsrerredadfa":
+    #     redirect('/login_error')
+    #     return
     username = request.forms.get("username").strip()
     password = request.forms.get("password").strip()
-    
-    #If the password is less than eight characters, it sends a password error
     if len(password) < 8:
-        redirect('/register_error/password')
+        redirect('/login_error')
         return
-    
-    #Adds the username to the database
     profile = db['profile'].find_one(username=username)
-    
-    #If the profile already exists, it sends a username error
     if profile:
-        redirect('/register_error/username')
+        redirect('/login_error')
         return
-    
-    #Adds the password to the database
     db['profile'].insert({'username':username, 'password':password})
     redirect('/')
     
