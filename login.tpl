@@ -8,4 +8,13 @@
 
 <style>
     body {background-color: cyan;}
+    
+    styledimg{
+    
+    background-image:url(https://i1.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?resize=1320%2C1320&ssl=1);
+    background-repeat: no-repeat;
+    width: 1320px;
+    width: 1320px
+    }
+    
 </style>
