@@ -16,14 +16,12 @@ randomSpoons[3] = "https://images-na.ssl-images-amazon.com/images/I/618F1Xwm49L.
 randomSpoons[4] = "https://www.rei.com/media/bb30c1ec-44b1-437b-9ed1-b501bca2c587?size=784x588"
 
 function randomSpoon(){
-    //Sets the location pressed to a random link between randomSpoons[0] and randomSpoons[4]
     window.location = randomSpoons[Math.floor(Math.random() * randomSpoons.length)]
 }
 
 </script>
 
 <form method = "post">
-    //Creates a button that when pressed sends to a random website
     <p><input type = "button" name = "B1" value = "Random image of a spoon" onclick = "randomSpoon()"></p> 
 
 </form>
