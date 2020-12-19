@@ -14,6 +14,9 @@ randomSpoons[1] = "https://www.ikea.com/us/en/images/products/dragon-spoon-stain
 randomSpoons[2] = "https://images-na.ssl-images-amazon.com/images/I/61Y-85Ei4-L._AC_SL1500_.jpg"
 randomSpoons[3] = "https://images-na.ssl-images-amazon.com/images/I/618F1Xwm49L._AC_SL1500_.jpg"
 randomSpoons[4] = "https://www.rei.com/media/bb30c1ec-44b1-437b-9ed1-b501bca2c587?size=784x588"
+randomSpoons[5] = "https://cdn.discordapp.com/attachments/735270134003793940/789673159687274507/horribly-slow-murder-2.png"
+randomSpoons[6] = "https://cdn.discordapp.com/attachments/735270134003793940/789673266565742592/Halloween-Wood-Spoon-Cover.png"
+randomSpoons[7] = "https://s3.crackedcdn.com/phpimages/article/3/0/4/293304_v2.jpg"
 
 function randomSpoon(){
     window.location = randomSpoons[Math.floor(Math.random() * randomSpoons.length)]
