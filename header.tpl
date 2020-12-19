@@ -17,6 +17,8 @@ randomSpoons[4] = "https://www.rei.com/media/bb30c1ec-44b1-437b-9ed1-b501bca2c58
 randomSpoons[5] = "https://cdn.discordapp.com/attachments/735270134003793940/789673159687274507/horribly-slow-murder-2.png"
 randomSpoons[6] = "https://cdn.discordapp.com/attachments/735270134003793940/789673266565742592/Halloween-Wood-Spoon-Cover.png"
 randomSpoons[7] = "https://s3.crackedcdn.com/phpimages/article/3/0/4/293304_v2.jpg"
+randomSpoons[8] = "https://cdn.discordapp.com/attachments/735270134003793940/789674992358391808/lv8BRVKhXz5INgIAAAAASUVORK5CYII.png"
+randomSpoons[9] = "https://static.tvtropes.org/pmwiki/pub/images/screenshot_478.png"
 
 function randomSpoon(){
     window.location = randomSpoons[Math.floor(Math.random() * randomSpoons.length)]
